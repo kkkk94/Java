@@ -67,7 +67,7 @@ public class Ex04_Arrary {
 				}
 				//국어 영어 수학 점수를 저장하고 
 				//배열변수에 저장된 모든 값의 총점과 평균을 구하여라. (for문 사용)
-				int[] numbers = {90,80,85}; //number - 점수들
+				int[] numbers = {90,80,87}; //number - 점수들
 				int sum = 0;
 				//double avg = sum / numbers.length;
 				
@@ -76,7 +76,9 @@ public class Ex04_Arrary {
 				 sum +=numbers[i];
 				 
 			 }
-			 double avg = sum / numbers.length;
+			 //double avg = sum / numbers.length; 소수점 없이
+			double avg = (double)sum / numbers.length; //소수점까지
+			
 			System.out.println("numbers[] 총점 : " + sum);
 			System.out.println("numbers[] 평균 : " + avg);
 			 
