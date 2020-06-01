@@ -13,6 +13,10 @@ public class ex07_iciafood {
 	public static void main(String[] args) {
 		//떡볶이 3,000원, 주먹밥 1,500원, 순대 2,500원, 모둠튀김 2,000원, 김밥 1,500원
 		
+		//결제를 n원 하면 포인트 적립
+		
+		//결제(포장하면500원 할인) , 몇인분씩 중복 주문 
+		
 		Scanner sc = new Scanner(System.in);
 		int num;
 		int price = 0;

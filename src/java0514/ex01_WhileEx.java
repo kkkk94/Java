@@ -14,10 +14,10 @@ public class ex01_WhileEx {
 		//switch-case문 사용
 	
 	public static void main (String [] args) {
-		int account=0;  										//통장 0원
-		int balance; 											 //(잔고)
-		boolean run = true;						//while문 사용하기 위해서 run(조건변수)선언 ,true 초기화
-		int menu;  									//1-4번
+		int account=0;  			//통장 0원
+		int balance; 				//(잔고)
+		boolean run = true;	//while문 사용하기 위해서 run(조건변수)선언 ,true 초기화
+		int menu;  				//1-4번
 						
 
 		

@@ -22,7 +22,7 @@ public class ex00_summary {
 		  출력하기
 		  System.out.println()
 		  주의: System 대문자!
-		  sysout + ctrl + space
+		  [sysout] + [ctrl] + [space]
 		  
 		  
 		  4.실행하기
